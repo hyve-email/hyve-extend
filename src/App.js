@@ -8,7 +8,7 @@ function App() {
   return (
     <RootContainer className="App">
       <Icon size={180} icon={HyveLogo} />
-      <span style={{ fontSize: 25, fontWeight: '400', textAlign: 'center' }}>
+      <span style={{ fontSize: 14, fontWeight: '600', textAlign: 'center', marginTop: '20px' }}>
         Security, Safety, Organization <br /> all in one hyve.
       </span>
 
@@ -25,21 +25,22 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 background-image: linear-gradient(to bottom right, #7052F5, #35abe6);
-color: #fefefe
+color: #fefefe;
 `;
 
 const SignUpButton = styled.button`
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 5px;
-  outline: none;
-  height: 35px;
-  margin-top: 30px;
-  border-color: #5282ff;
-  color: #f3f3f3;
   align-self: center;
-  text-align: center;
   background: #7052F5;
+  border-color: #5282ff;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 12px;
+  font-weight: bold;
+  height: 40px;
+  margin-top: 35px;
+  padding: 0 10px;
+  outline: none;
+  text-align: center;
 
   &:hover {
     cursor: pointer;
